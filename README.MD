@@ -16,6 +16,11 @@ This repository provides PyTorch implementations of the diversity-aware retrieva
 pip install torch sentence-transformers pyserini datasets tqdm numpy
 ```
 
+## Setup
+```bash
+mkdir -p data output datasets models
+```
+
 ## Data Preparation
 
 ### QAMPARI
