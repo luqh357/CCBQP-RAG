@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides PyTorch implementations of the diversity-aware retrieval algorithms from the paper, including the proposed Frank-Wolfe algorithm (FW-QP) and two baselines: Maximal Marginal Relevance (MMR) and Greedy Determinantal Point Process (DPP).
+This repository provides PyTorch implementations of the diversity-aware retrieval algorithms from the COLM 2026 paper, including the proposed Frank-Wolfe algorithm (FW-QP) and two baselines: Maximal Marginal Relevance (MMR) and Greedy Determinantal Point Process (DPP).
 
 ## Files
 
@@ -61,10 +61,10 @@ python eval_retrieval_qampari.py \
 ## Citation
 
 ```bibtex
-@article{lu2026principled,
+@inproceedings{lu2026principled,
   title={Principled and Scalable Diversity-Aware Retrieval via Cardinality-Constrained Binary Quadratic Programming},
   author={Lu, Qiheng and Sidiropoulos, Nicholas D.},
-  journal={arXiv preprint arXiv:2604.02554},
+  booktitle={Proceedings of the Third Conference on Language Modeling},
   year={2026}
 }
 ```
